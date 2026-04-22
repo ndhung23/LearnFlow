@@ -3,7 +3,14 @@ dist/
 build/
 .env
 .env.local
+.env.*
+!.env.example
+server/.env
+client/.env
 .DS_Store
 coverage/
 *.log
 server/uploads/
+mongodb-data/
+mongo-data/
+dump/
